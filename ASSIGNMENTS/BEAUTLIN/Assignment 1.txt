@@ -1,0 +1,60 @@
+<html>
+<head>
+   <title>Registration</title> 
+</head>
+<body>
+    <div class = "container">
+        <table>
+            <tr>
+                <td><label for = "name">Name :</label></td>
+                <td><input type = "text" name="name" id="name"  ></td>
+            </tr>
+            <tr>
+                <td><label for = "email">Email Id :</label></td>
+                <td><input type = "email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for = "phone">Phone Number :</label></td>
+                <td><input type = "tel" name="phone" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for = "city">City :</label></td>
+                <td>
+                    <select name="city" id = "city">
+                        <option value = "select">--Select--</option>
+                        <option value = "chennai">Chennai</option>
+                        <option value = "madurai">Madurai</option>
+                        <option value = "tirunelveli">Tirunelveli</option>
+                        <option value = "sivakasi">Sivakasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for = "state">State :</label></td>
+                <td>
+                    <select name="state" id = "state">
+                        <option value = "select">--Select--</option>
+                        <option value = "Tamil Nadu">Tamil Nadu</option>
+                        <option value = "kerala">Kerala</option>
+                        <option value = "karnataka">Karnataka</option>
+                        <option value = "andra">Andra pradesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for = "County">Country :</label></td>
+                <td>
+                    <select name="Country" id = "country">
+                        <option value = "select">--Select--</option>
+                        <option value = "india">India</option>
+                        <option value = "pakistan">Pakistan</option>
+                        <option value = "bangladesh">Bangladesh</option>
+                        <option value = "china">China</option>
+                    </select>
+                </td>
+            </tr>
+            
+
+        </table>
+    </div>
+</body>
